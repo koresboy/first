@@ -9,4 +9,10 @@
 
 </select>
 
+<select id="sel2" resultType="com.wang.test.HomeDto2">     <!-- resultType 본인 환경에 맞게 수정 필요 -->
+
+	select * from account order by account_idx desc
+
+</select>
+
 </mapper> 
